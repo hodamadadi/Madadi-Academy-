@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Madadi Academy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons8-h-48.png">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Google  Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="display-6 text-primary m-0">Madadi</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="courses.html" class="nav-item nav-link active">Courses</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                              <a href="portfolio.html" class="dropdown-item">Portfolio</a>
+                              <a href="blog.html" class="dropdown-item">Blog</a>
+                              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="pricing.html" class="dropdown-item">Pricing</a>  
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                    <a href="#" class="btn btn-light border border-primary rounded-pill text-primary py-2 px-4 me-4">Log In</a>
+                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4">Sign Up</a>
+                </div>
+            </nav>
+        </div>
+         <!-- Header-->
+         <div class="container-fluid bg-breadcrumb">
+            <ul class="breadcrumb-animation">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="display-3 mb-4" data-aos="fade-left"
+                data-aos-duration="800">Our Courses</h1>
+                <ol class="breadcrumb justify-content-center mb-0 "data-aos="fade-right"
+                data-aos-duration="900">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-primary">Courses</li>
+                </ol>    
+            </div>
+        </div>
+          <!-- Courses -->
+    <div class="container-fluid service py-5">
+        <div class="container py-5">
+          <div
+            class="text-center mx-auto mb-5"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1000"
+            style="max-width: 900px"
+          >
+            <h4 class="mb-1 text-primary">Our Courses</h4>
+            <h1 class="display-5 mb-4">What We Can Do For You</h1>
+            <p class="mb-0">
+              At Madadi Academy, we offer a diverse range of English language
+              courses designed to meet the needs of learners at all levels.
+              Whether you are just beginning your English language journey or
+              looking to refine your skills, our expert instructors and
+              comprehensive curriculum will help you achieve your goals. Explore
+              our course offerings below:
+            </p>
+          </div>
+          <div class="row g-4 justify-content-center">
+            <div
+              class="col-md-6 col-lg-4 col-xl-3"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div class="service-item text-center rounded p-4">
+                <div
+                  class="service-icon d-inline-block bg-light rounded p-4 mb-4"
+                >
+                  <i class="fa-solid fa-book-open fa-4x text-secondary"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="mb-4">Beginner English</h4>
+                  <p class="mb-4">
+                    Beginner English courses provide a strong foundation for new learners. Start your journey with essential vocabulary and basic grammar to build confidence and communication skills.
+                  </p>
+                  <a
+                    href="./index.html"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 col-xl-3"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+            >
+              <div class="service-item text-center rounded p-4">
+                <div
+                  class="service-icon d-inline-block bg-light rounded p-4 mb-4"
+                >
+                  <i
+                    class="fa-solid fa-book-open-reader fa-4x text-secondary"
+                  ></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="mb-4">Intermediate English</h4>
+                  <p class="mb-4">
+                    Intermediate English courses help bridge the gap between basic proficiency and advanced fluency. Enhance your language skills with targeted lessons and practical exercises.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 col-xl-3"
+              data-aos="fade-down"
+              data-aos-duration="1800"
+            >
+              <div class="service-item text-center rounded p-4">
+                <div
+                  class="service-icon d-inline-block bg-light rounded p-4 mb-4"
+                >
+                  <i class="fa-solid fa-graduation-cap fa-4x text-secondary"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="mb-4">Advanced English</h4>
+                  <p class="mb-4">
+                    Advanced English courses are designed for those who wish to master the language at a high level. Dive into complex topics and refine your skills with expert guidance and advanced exercises
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 col-xl-3"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
+              <div class="service-item text-center rounded p-4">
+                <div
+                  class="service-icon d-inline-block bg-light rounded p-4 mb-4"
+                >
+                  <i class="fa-solid fa-user-graduate fa-4x text-secondary"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="mb-4">Business English</h4>
+                  <p class="mb-4">
+                    Business English courses focus on improving your professional communication. Master industry-specific terminology and skills for effective meetings and presentations
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 col-xl-3"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div class="service-item text-center rounded p-4">
+                <div
+                  class="service-icon d-inline-block bg-light rounded p-4 mb-4"
+                >
+                  <i class="fa-solid fa-file-invoice fa-4x text-secondary"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="mb-4">Exam Preparation</h4>
+                  <p class="mb-4">
+                    Get ready for your exams with tailored preparation courses. Enhance your test-taking skills and boost your confidence for top performance.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 col-xl-3"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+            >
+              <div class="service-item text-center rounded p-4">
+                <div
+                  class="service-icon d-inline-block bg-light rounded p-4 mb-4"
+                >
+                  <i class="fa-solid fa-comments fa-4x text-secondary"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="mb-4">Conversation Club</h4>
+                  <p class="mb-4">
+                    Join our Conversation Club to practice and improve your speaking skills. Engage in lively discussions and build fluency in a supportive environment.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 col-xl-3"
+              data-aos="fade-down"
+              data-aos-duration="1800"
+            >
+              <div class="service-item text-center rounded p-4">
+                <div
+                  class="service-icon d-inline-block bg-light rounded p-4 mb-4"
+                >
+                  <i class="fa-solid fa-earth-oceania fa-4x text-secondary"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="mb-4">Custom Courses</h4>
+                  <p class="mb-4">
+                    Create your own learning path with our Custom Courses. Tailor lessons to your specific needs and goals for a personalized educational experience.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 col-xl-3"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
+              <div class="service-item text-center rounded p-4">
+                <div
+                  class="service-icon d-inline-block bg-light rounded p-4 mb-4"
+                >
+                  <i
+                    class="fa-solid fa-map-location-dot fa-5x text-secondary"
+                  ></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="mb-4">English for Travel</h4>
+                  <p class="mb-4">
+                    Learn essential English for travel with our tailored courses. Speak confidently and navigate any destination with ease.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-light rounded-pill text-primary py-2 px-4"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>>
+      <!-- Search -->
+       <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-4 mx-auto justify-content-center"data-aos="zoom-in" data-aos-duration="900">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+            </div>
+         
+          </div>
+        </div>
+        <div class="row mx-auto justify-content-center">
+          <div class="col-lg-6 ">
+            <img src="./img/curiosity search-cuate.png" class="img-fluid" alt=""data-aos="fade-left" data-aos-duration="900">
+          </div>
+          <div class="col-lg-6 mt-3 mx-auto justify-content-center">
+<div class="col-lg  mt-5" data-aos="fade-right" data-aos-duration="900" ><i class="fa-solid fa-graduation-cap fa-2x text-secondary px-4"></i>
+<span class="fw-bold">Online Courses</span>
+<p class="p-2 ">Flexible, interactive online courses for your schedule</p></div>
+<div class="col  " data-aos="fade-right" data-aos-duration="900" ><i class="fa-solid fa-book-open fa-2x text-secondary px-4"></i> 
+  <span class="fw-bold"> Short Courses</span>
+<p class="p-2">Quick, focused learning with our short courses.</p></div>
+  <div class="col p-2" data-aos="fade-right" data-aos-duration="900" ><i class="fa-solid fa-user fa-2x text-secondary px-4"></i>
+    <span class="fw-bold"> Training from Experts</span>
+  <p class="p-2">Learn directly from industry experts.</p></div>
+    <div class="col p-2" data-aos="fade-right" data-aos-duration="900" ><i class="fa-solid fa-play fa-2x text-secondary px-4"></i>
+      <span class="fw-bold">1.5K + Video Courses</span>
+    <p class="p-2">Access over 1.5K+ video courses.</p></div>
+      <div class="col  p-2" data-aos="fade-right" data-aos-duration="900" ><i class="fa-regular fa-clipboard fa-2x text-secondary px-4"></i>
+        <span class="fw-bold">Online Tests</span>
+      <p class="p-2">Engage with online tests to assess your learning progress.</p></div>
+          </div>
+        </div>
+       </div>
+        <!-- Pricing -->
+        <div class="container-fluid price py-5">
+          <div class="container py-5">
+            <div
+              class="text-center mx-auto mb-5"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              style="max-width: 900px"
+            >
+              <h4 class="text-primary">Course Fees and Pricing</h4>
+              <h1 class="display-5 mb-4">Find the Right Plan for Your Learning Journey</h1>
+              <p class="mb-0">
+                At Madadi Academy, we offer a variety of pricing plans to fit your
+                needs and budget. Whether you're just starting your English journey
+                or preparing for advanced exams, we have the right plan for you.
+              </p>
+            </div>
+            <div class="row g-5 justify-content-center">
+              <div
+                class="col-md-6 col-lg-6 col-xl-4"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
+                <div class="price-item bg-light rounded text-center">
+                  <div
+                    class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4"
+                    style="width: 100%; height: 160px"
+                  >
+                    <p class="fs-2 fw-bold text-uppercase mb-0">IELTS</p>
+                    <div class="d-flex justify-content-center">
+                      <strong class="align-self-start">$</strong>
+                      <p class="mb-0"><span class="display-5">450</span>/mo</p>
+                    </div>
+                  </div>
+                  <div class="text-start p-5">
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Limited Acess
+                      Library
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Students Support
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Intensive
+                      training
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Practice tests
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Unlimited access
+                      to materials Pages
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Flexible
+                      duration
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> 10-week course
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Unlimited
+                      access to materials
+                    </p>
+                    <a href="pricing.html"
+                      class="btn btn-light rounded-pill py-2 px-5 mt-3"
+                      type="button"
+                    >
+                      Get Started
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-6 col-xl-4"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-wow-delay="0.3s"
+              >
+                <div class="price-item bg-light rounded text-center">
+                  <div class="pice-item-offer">Popular</div>
+                  <div
+                    class="text-center text-primary border-bottom d-flex flex-column justify-content-center p-4"
+                    style="width: 100%; height: 160px"
+                  >
+                    <p class="fs-2 fw-bold text-uppercase mb-0">Duolingo</p>
+                    <div class="d-flex justify-content-center">
+                      <strong class="align-self-start">$</strong>
+                      <p class="mb-0"><span class="display-5">368</span>/mo</p>
+                    </div>
+                  </div>
+                  <div class="text-start p-5">
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Interactive
+                      lessons
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Fits diverse
+                      schedules
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Enhances
+                      speaking
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> 10-week course
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Unlimited
+                      access to materials
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> 5 classes per
+                      week
+                    </p>
+    
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Personalized
+                      coaching and exam prep
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Practice tests
+                      <a href="pricing.html"
+                        class="btn btn-light rounded-pill py-2 px-5 mt-4"
+                        type="button"
+                      >
+                        Get Started
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-6 col-xl-4"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
+                <div class="price-item bg-light rounded text-center">
+                  <div
+                    class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4"
+                    style="width: 100%; height: 160px"
+                  >
+                    <p class="fs-2 fw-bold text-uppercase mb-0">TOEFL</p>
+                    <div class="d-flex justify-content-center">
+                      <strong class="align-self-start">$</strong>
+                      <p class="mb-0"><span class="display-5">420</span>/mo</p>
+                    </div>
+                  </div>
+                  <div class="text-start p-5">
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Limited Acess
+                      Library
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Students Support
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Intensive
+                      training
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Practice tests
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Unlimited access
+                      to materials Pages
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i>Flexible
+                      duration
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> 10-week course
+                    </p>
+                    <p>
+                      <i class="fas fa-check text-success me-1"></i> Unlimited
+                      access to materials
+                    </p>
+                    <a href="pricing.html"
+                      class="btn btn-light rounded-pill py-2 px-5 mt-3"
+                      type="button"
+                    >
+                      Get Started
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- Chart -->
+        <div class="container">
+  <div class="row">
+    <div class="col-lg-12 m-4 p-5">
+      <h3 class="text-secondary fw-bold text-center" data-aos="fade-left" data-aos-duration="1000"> Achievements & performance</h3>
+      <p class="text-center" data-aos="fade-left" data-aos-duration="1400">Achievements and performance of our courses in 2023 - 2024</p>
+      <div id="chartdiv" data-aos="fade-left" data-aos-duration="1000"></div>
+    </div>
+  </div>
+        </div>
+     <!-- Footer-->
+       <div class="container-fluid footer py-5 ">
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="text-dark mb-4">Madadi Academy</h4>
+                <a href=""> Why Madadi Academy?</a>
+                <a href="courses.html"> Our Courses</a>
+                <a href="feature.html"> Our Features</a>
+                <a href="about.html"> About Us</a>
+                <a href="blog.html"> Our Blog & News</a>
+                <a href="contact.html"> Get In Touch</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-dark">Quick Links</h4>
+                <a href="about.html"> About Us</a>
+                <a href="contact.html"> Contact Us</a>
+                <a href="feature.html">Our Fearutes</a>
+                <a href="courses.html"> Terms & Conditions</a>
+                <a href="blog.html"> Our Blog & News</a>
+                <a href="about.html"> Our Team</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-dark">Courses</h4>
+                <a href="courses.html"> All Services</a>
+                <a href="contact.html"> Emails</a>
+                <a href="courses.html"> Product Updates</a>
+                <a href="courses.html"> Courses</a>
+                <a href="blog.html"> Blog </a>
+                <a href="contact.html"> Reception Email</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-dark">Contact Info</h4>
+                <a href=""
+                  ><i class="fa fa-map-marker-alt me-2"></i> 9 Distric, Herat,
+                  Afghanistan
+                </a>
+                <a href=""
+                  ><i class="fas fa-envelope me-2"></i> hodamadadi5@gmail.com</a
+                >
+                <a href=""
+                  ><i class="fas fa-phone me-2"></i> +93(0) 744 367 704</a
+                >
+                <a href="" class="mb-3"
+                  ><i class="fas fa-print me-2"></i> +93(0) 744 367 704</a
+                >
+                <div class="d-flex align-items-center">
+                  <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1"
+                    href="https://www.facebook.com/Hoda846"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1"
+                    href="https://x.com/HodaMadadi"
+                    ><i class="fab fa-x"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1"
+                    href="https://www.instagram.com/pinklady.rm/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1"
+                    href="https://www.linkedin.com/in/hoda-madadi/details/projects/"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- Copyright-->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-md-0">
+              <span class="text-white"
+                ><a href="#"
+                  ><i class="fas fa-copyright text-light me-2"></i>Hoda Madadi
+                </a>
+                All right reserved | 2024
+              </span>
+            </div>
+            <div class="col-md-6 text-center text-md-end text-white">
+              Designed By
+              <a class="border-bottom" href="contact.html">Hoda Madadi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+               <!-- Resources -->
+      <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+      <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+       <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/main.js"></script>
+    </body>
+
+</html>

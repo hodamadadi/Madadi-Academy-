@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Madadi Academy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons8-h-48.png">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Google  Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Navbar  -->
+        <div class="container-fluid p-0">
+            <nav
+            class="navbar navbar-expand-lg fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-0"
+          >
+            <a href="index.html" class="navbar-brand p-0">
+              <h1 class="display-6 text-primary m-0">
+                Madadi
+              </h1>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Pages</a
+                  >
+                  <div class="dropdown-menu m-0">
+                    <a href="portfolio.html" class="dropdown-item">Portfolio</a>
+                    <a href="blog.html" class="dropdown-item">Blog</a>
+                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    <a href="feature.html" class="dropdown-item">Features</a>
+                    <a href="pricing.html" class="dropdown-item">Pricing</a>
+                  </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+              </div>
+              <a
+                href="#"
+                class="btn btn-light border border-primary rounded-pill text-primary py-2 px-4 me-4"
+                >Log In</a
+              >
+              <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4"
+                >Sign Up</a
+              >
+            </div>
+          </nav>
+        </div>
+         <!-- Header -->
+         <div class="container-fluid bg-breadcrumb mb-0">
+            <ul class="breadcrumb-animation">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="display-3 mb-4" data-aos="fade-left"
+                data-aos-duration="800">Our Testimonial</h1>
+                <ol class="breadcrumb justify-content-center mb-0 " data-aos="fade-left"
+                data-aos-duration="900">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-primary">Testimonial</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header-->
+        <!-- Testimonial -->
+        <div class="container-fluid testimonial py-5">
+        <div class="container py-5">
+          <div
+            class="text-center mx-auto mb-5"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            style="max-width: 900px"
+          >
+            <h4 class="text-primary">Testimonial</h4>
+            <h1 class="display-5 mb-4">What Our Students Say About Us</h1>
+            <p class="mb-0">
+              "At Madadi English Learning Academy, our students’ success stories speak volumes about the quality of education we provide. Hear from our students as they share their experiences and the impact our academy has had on their English language journey. Their testimonials reflect our commitment to excellence and the positive difference we make in their lives."
+            </p>
+          </div>
+          <div
+            class="testimonial-carousel owl-carousel wow zoomInDown"
+            data-wow-delay="0.2s"
+          >
+            <div
+              class="testimonial-item"
+              data-dot="<img class='img-fluid' src='img/e55b2f835bf1192bf69f0b42a846dadf.jpg' alt=''>"
+            >
+              <div class="testimonial-inner text-center p-5">
+                <div
+                  class="d-flex align-items-center justify-content-center mb-4"
+                >
+                  <div
+                    class="testimonial-inner-img border border-primary border-3 me-4"
+                    style="width: 100px; height: 100px; border-radius: 50%"
+                  >
+                    <img
+                      src="img/e55b2f835bf1192bf69f0b42a846dadf.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h5 class="mb-2">Neda Madadi</h5>
+                    <p class="mb-0">Herat, Afghanistan</p>
+                  </div>
+                </div>
+                <p class="fs-7">
+                  "Madadi English Learning Academy transformed my English skills
+                  in just a few months! The personalized attention and engaging
+                  lessons made learning easy and enjoyable. I highly recommend it
+                  to anyone looking to improve their English."
+                </p>
+                <div class="text-center">
+                  <div class="d-flex justify-content-center">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="testimonial-item"
+              data-dot="<img class='img-fluid' src='img/b4d9c8765901d88eed59892aec888aaf.jpg' alt=''>"
+            >
+              <div class="testimonial-inner text-center p-5">
+                <div
+                  class="d-flex align-items-center justify-content-center mb-4"
+                >
+                  <div
+                    class="testimonial-inner-img border border-primary border-3 me-4"
+                    style="width: 100px; height: 100px; border-radius: 50%"
+                  >
+                    <img
+                      src="img/b4d9c8765901d88eed59892aec888aaf.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h5 class="mb-2">Ahmad Manish</h5>
+                    <p class="mb-0">Kabul, Afghanistan</p>
+                  </div>
+                </div>
+                <p class="fs-7">
+                  "Thanks to Madadi English Learning Academy, I was able to
+                  achieve a high score on my IELTS exam. The teachers are
+                  experienced, and the curriculum is well-structured. It's the
+                  best place to learn English!"
+                </p>
+                <div class="text-center">
+                  <div class="d-flex justify-content-center">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="testimonial-item"
+              data-dot="<img class='img-fluid' src='img/454de7e55afa23c018f067c67aeef6b9.jpg' alt=''>"
+            >
+              <div class="testimonial-inner text-center p-5">
+                <div
+                  class="d-flex align-items-center justify-content-center mb-4"
+                >
+                  <div
+                    class="testimonial-inner-img border border-primary border-3 me-4"
+                    style="width: 100px; height: 100px; border-radius: 50%"
+                  >
+                    <img
+                      src="img/454de7e55afa23c018f067c67aeef6b9.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h5 class="mb-2">Bahar, Safa</h5>
+                    <p class="mb-0">Herat, Afghanistan</p>
+                  </div>
+                </div>
+                <p class="fs-7">
+                  "The interactive classes and supportive environment at Madadi
+                  English Learning Academy helped me build confidence in my
+                  speaking abilities. I feel more prepared for my future studies
+                  and career.
+                </p>
+                <div class="text-center">
+                  <div class="d-flex justify-content-center">
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         </div>
+        <!-- Testimonial End -->
+   <!-- Footer-->
+          <div class="container-fluid footer py-5">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-md-6 col-lg-3 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="text-dark mb-4">Madadi Academy</h4>
+            <a href=""> Why Madadi Academy?</a>
+            <a href="courses.html"> Our Courses</a>
+            <a href="feature.html"> Our Features</a>
+            <a href="about.html"> About Us</a>
+            <a href="blog.html"> Our Blog & News</a>
+            <a href="contact.html"> Get In Touch</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-dark">Quick Links</h4>
+            <a href="about.html"> About Us</a>
+            <a href="contact.html"> Contact Us</a>
+            <a href="feature.html">Our Fearutes</a>
+            <a href="courses.html"> Terms & Conditions</a>
+            <a href="blog.html"> Our Blog & News</a>
+            <a href="about.html"> Our Team</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-dark">Courses</h4>
+            <a href="courses.html"> All Services</a>
+            <a href="contact.html"> Emails</a>
+            <a href="courses.html"> Product Updates</a>
+            <a href="courses.html"> Courses</a>
+            <a href="blog.html"> Blog </a>
+            <a href="contact.html"> Reception Email</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-dark">Contact Info</h4>
+            <a href=""
+              ><i class="fa fa-map-marker-alt me-2"></i> 9 Distric, Herat,
+              Afghanistan
+            </a>
+            <a href=""
+              ><i class="fas fa-envelope me-2"></i> hodamadadi5@gmail.com</a
+            >
+            <a href=""
+              ><i class="fas fa-phone me-2"></i> +93(0) 744 367 704</a
+            >
+            <a href="" class="mb-3"
+              ><i class="fas fa-print me-2"></i> +93(0) 744 367 704</a
+            >
+            <div class="d-flex align-items-center">
+              <i class="fas fa-share fa-2x text-secondary me-2"></i>
+              <a
+                class="btn-square btn btn-primary rounded-circle mx-1"
+                href="https://www.facebook.com/Hoda846"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn-square btn btn-primary rounded-circle mx-1"
+                href="https://x.com/HodaMadadi"
+                ><i class="fab fa-x"></i
+              ></a>
+              <a
+                class="btn-square btn btn-primary rounded-circle mx-1"
+                href="https://www.instagram.com/pinklady.rm/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="btn-square btn btn-primary rounded-circle mx-1"
+                href="https://www.linkedin.com/in/hoda-madadi/details/projects/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+  <!-- Copyright-->
+          <div class="container-fluid copyright py-4">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-md-0">
+          <span class="text-white"
+            ><a href="#"
+              ><i class="fas fa-copyright text-light me-2"></i>Hoda Madadi
+            </a>
+            All right reserved | 2024
+          </span>
+        </div>
+        <div class="col-md-6 text-center text-md-end text-white">
+          Designed By
+          <a class="border-bottom" href="contact.html">Hoda Madadi</a>
+        </div>
+      </div>
+    </div>
+          </div>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    </body>
+
+</html>

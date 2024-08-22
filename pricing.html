@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Madadi Academy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons8-h-48.png">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Google  Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="display-6 text-primary m-0">Madadi</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="courses.html" class="nav-item nav-link">Courses</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                              <a href="portfolio.html" class="dropdown-item">Portfolio</a>
+                              <a href="blog.html" class="dropdown-item">Blog</a>
+                              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="pricing.html" class="dropdown-item active">Pricing</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                    <a href="#" class="btn btn-light border border-primary rounded-pill text-primary py-2 px-4 me-4">Log In</a>
+                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4">Sign Up</a>
+                </div>
+            </nav>
+        </div>
+         <!-- Header -->
+         <div class="container-fluid bg-breadcrumb">
+            <ul class="breadcrumb-animation">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="display-3 mb-4" data-aos="fade-left"
+                data-aos-duration="800">Our Price Plan</h1>
+                <ol class="breadcrumb justify-content-center mb-0" data-aos="fade-left"
+                data-aos-duration="900">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-primary">Price</li>
+                </ol>    
+            </div>
+        </div>
+     <!-- Pricing -->
+     <div class="container-fluid price py-5">
+        <div class="container py-5">
+          <div
+            class="text-center mx-auto mb-5"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            style="max-width: 900px"
+          >
+            <h4 class="text-primary">Test Preparation</h4>
+            <h1 class="display-5 mb-4">Which plan is for You?</h1>
+            <p class="mb-0">
+              At Madadi Academy, we offer a variety of pricing plans to fit your
+              needs and budget. Whether you're just starting your English journey
+              or preparing for advanced exams, we have the right plan for you.
+            </p>
+          </div>
+          <div class="row g-5 justify-content-center">
+            <div
+              class="col-md-6 col-lg-6 col-xl-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <div class="price-item bg-light rounded text-center">
+                <div
+                  class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4"
+                  style="width: 100%; height: 160px"
+                >
+                  <p class="fs-2 fw-bold text-uppercase mb-0">IELTS</p>
+                  <div class="d-flex justify-content-center">
+                    <strong class="align-self-start">$</strong>
+                    <p class="mb-0"><span class="display-5">450</span>/mo</p>
+                  </div>
+                </div>
+                <div class="text-start p-5">
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Limited Acess
+                    Library
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Students Support
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Intensive
+                    training
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Practice tests
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Unlimited access
+                    to materials Pages
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Flexible
+                    duration
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> 10-week course
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Unlimited
+                    access to materials
+                  </p>
+                  <a href="contact.html"
+                    class="btn btn-light rounded-pill py-2 px-5 mt-3"
+                    type="button"
+                  >
+                    Get Started
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-6 col-xl-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-wow-delay="0.3s"
+            >
+              <div class="price-item bg-light rounded text-center">
+                <div class="pice-item-offer">Popular</div>
+                <div
+                  class="text-center text-primary border-bottom d-flex flex-column justify-content-center p-4"
+                  style="width: 100%; height: 160px"
+                >
+                  <p class="fs-2 fw-bold text-uppercase mb-0">Duolingo</p>
+                  <div class="d-flex justify-content-center">
+                    <strong class="align-self-start">$</strong>
+                    <p class="mb-0"><span class="display-5">368</span>/mo</p>
+                  </div>
+                </div>
+                <div class="text-start p-5">
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Interactive
+                    lessons
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Fits diverse
+                    schedules
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Enhances
+                    speaking
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> 10-week course
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Unlimited
+                    access to materials
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> 5 classes per
+                    week
+                  </p>
+  
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Personalized
+                    coaching and exam prep
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Practice tests
+                    <a href="contact.html"
+                      class="btn btn-light rounded-pill py-2 px-5 mt-4"
+                      type="button"
+                    >
+                      Get Started
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-6 col-xl-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <div class="price-item bg-light rounded text-center">
+                <div
+                  class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4"
+                  style="width: 100%; height: 160px"
+                >
+                  <p class="fs-2 fw-bold text-uppercase mb-0">TOEFL</p>
+                  <div class="d-flex justify-content-center">
+                    <strong class="align-self-start">$</strong>
+                    <p class="mb-0"><span class="display-5">420</span>/mo</p>
+                  </div>
+                </div>
+                <div class="text-start p-5">
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Limited Acess
+                    Library
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Students Support
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Intensive
+                    training
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Practice tests
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Unlimited access
+                    to materials Pages
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i>Flexible
+                    duration
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> 10-week course
+                  </p>
+                  <p>
+                    <i class="fas fa-check text-success me-1"></i> Unlimited
+                    access to materials
+                  </p>
+                  <a href="contact.html"
+                    class="btn btn-light rounded-pill py-2 px-5 mt-3"
+                    type="button"
+                  >
+                    Get Started
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Details -->
+      <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-12"data-aos="zoom-in" data-aos-duration="800">
+                <h2>Our Pricing Plans</h2>
+                <p>Choose the plan that best fits your needs and goals.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 mb-4 "data-aos="zoom-in" data-aos-duration="1000">
+                <div class="pricing-card">
+                    <div class="pricing-header bg-light p-3">
+                        <h4 class="mb-0">Basic Plan</h4>
+                        <h3 class="fw-bold text-secondary ">$19.99</h3>
+                    </div>
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li>2 Classes per Week</li>
+                            <li>Basic Grammar</li>
+                            <li>Beginner Level</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary rounded-pill py-2 px-4 mt-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="pricing-card">
+                    <div class="pricing-header bg-light  p-3" >
+                        <h4 class="mb-0">Standard Plan</h4>
+                        <h3 class="fw-bold text-secondary">$29.99</h3>
+                    </div>
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li>3 Classes per Week</li>
+                            <li>Intermediate Grammar</li>
+                            <li>Intermediate Level</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary rounded-pill py-2 px-4 mt-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4"data-aos="zoom-in" data-aos-duration="1000">
+                <div class="pricing-card">
+                    <div class="pricing-header bg-light  p-3">
+                        <h4 class="mb-0">Premium Plan</h4>
+                        <h3 class="fw-bold text-secondary">$39.99</h3>
+                    </div>
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li>4 Classes per Week</li>
+                            <li>Advanced Grammar</li>
+                            <li>Advanced Level</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary rounded-pill py-2 px-4 mt-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4"data-aos="zoom-in" data-aos-duration="1000">
+                <div class="pricing-card">
+                    <div class="pricing-header bg-light  p-3">
+                        <h4 class="mb-0">Ultimate Plan</h4>
+                        <h3 class="fw-bold text-secondary">$49.99</h3>
+                    </div>
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li>5 Classes per Week</li>
+                            <li>Expert Grammar</li>
+                            <li>Expert Level</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary rounded-pill py-2 px-4 mt-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4"data-aos="zoom-in" data-aos-duration="1000">
+                <div class="pricing-card">
+                    <div class="pricing-header bg-light  p-3">
+                        <h4 class="mb-0">Conversation Plan</h4>
+                        <h3 class="fw-bold text-secondary">$25.99</h3>
+                    </div>
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li>3 Classes per Week</li>
+                            <li>Focus on Speaking</li>
+                            <li>All Levels</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary rounded-pill py-2 px-4 mt-3" >Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4"data-aos="zoom-in" data-aos-duration="1000">
+                <div class="pricing-card">
+                    <div class="pricing-header bg-light  p-3">
+                        <h4 class="mb-0">Grammar Mastery Plan</h4>
+                        <h3 class="fw-bold text-secondary">$35.99</h3>
+                    </div>
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li>4 Classes per Week</li>
+                            <li>In-depth Grammar</li>
+                            <li>Intermediate to Advanced</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary rounded-pill py-2 px-4 mt-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4"data-aos="zoom-in" data-aos-duration="1000">
+                <div class="pricing-card">
+                    <div class="pricing-header bg-light  p-3">
+                        <h4 class="mb-0">IELTS Preparation</h4>
+                        <h3 class="fw-bold text-secondary">$45.99</h3>
+                    </div>
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li>5 Classes per Week</li>
+                            <li>IELTS Focused</li>
+                            <li>Advanced Level</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary rounded-pill py-2 px-4 mt-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4"data-aos="zoom-in" data-aos-duration="1000">
+                <div class="pricing-card">
+                    <div class="pricing-header bg-light  p-3">
+                        <h4 class="mb-0">Business English</h4>
+                        <h3 class="fw-bold text-secondary ">$49.99</h3>
+                    </div>
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li>5 Classes per Week</li>
+                            <li>Focus on Business English</li>
+                            <li>Advanced Level</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary rounded-pill py-2 px-4 mt-3">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <!-- Footer-->
+      <div class="container-fluid footer py-5 ">
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="text-dark mb-4">Madadi Academy</h4>
+                <a href=""> Why Madadi Academy?</a>
+                <a href="courses.html"> Our Courses</a>
+                <a href="feature.html"> Our Features</a>
+                <a href="about.html"> About Us</a>
+                <a href="blog.html"> Our Blog & News</a>
+                <a href="contact.html"> Get In Touch</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-dark">Quick Links</h4>
+                <a href="about.html"> About Us</a>
+                <a href="contact.html"> Contact Us</a>
+                <a href="feature.html">Our Fearutes</a>
+                <a href="courses.html"> Terms & Conditions</a>
+                <a href="blog.html"> Our Blog & News</a>
+                <a href="about.html"> Our Team</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-dark">Courses</h4>
+                <a href="courses.html"> All Services</a>
+                <a href="contact.html"> Emails</a>
+                <a href="courses.html"> Product Updates</a>
+                <a href="courses.html"> Courses</a>
+                <a href="blog.html"> Blog </a>
+                <a href="contact.html"> Reception Email</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-dark">Contact Info</h4>
+                <a href=""
+                  ><i class="fa fa-map-marker-alt me-2"></i> 9 Distric, Herat,
+                  Afghanistan
+                </a>
+                <a href=""
+                  ><i class="fas fa-envelope me-2"></i> hodamadadi5@gmail.com</a
+                >
+                <a href=""
+                  ><i class="fas fa-phone me-2"></i> +93(0) 744 367 704</a
+                >
+                <a href="" class="mb-3"
+                  ><i class="fas fa-print me-2"></i> +93(0) 744 367 704</a
+                >
+                <div class="d-flex align-items-center">
+                  <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1"
+                    href="https://www.facebook.com/Hoda846"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1"
+                    href="https://x.com/HodaMadadi"
+                    ><i class="fab fa-x"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1"
+                    href="https://www.instagram.com/pinklady.rm/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1"
+                    href="https://www.linkedin.com/in/hoda-madadi/details/projects/"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright-->
+      <div class="container-fluid copyright py-4">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-md-0">
+              <span class="text-white"
+                ><a href="#"
+                  ><i class="fas fa-copyright text-light me-2"></i>Hoda Madadi
+                </a>
+                All right reserved | 2024
+              </span>
+            </div>
+            <div class="col-md-6 text-center text-md-end text-white">
+              Designed By
+              <a class="border-bottom" href="contact.html">Hoda Madadi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
